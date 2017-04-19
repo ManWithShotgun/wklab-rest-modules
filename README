@@ -1,0 +1,17 @@
+About "final". Hardcore Java by Robert Simmons, Chapter 2. The Final Story :
+One fundamental principle of programming is that, generally, it is best to swap a logic error for a compiler error.Compiler errors tend to be found in seconds and are corrected just as fast. Syntax errors are a good example. A missing semicolon can make things confusing. If the compiler error is something particularly cryptic, the resolution may take as long as a couple of minutes to discover.
+
+
+
+Run bat -> 1) build-with-profile.bat test-build
+           2) exec-pmd.bat
+
+
+Run service -> 0) If first run. wklab-rest-modules (parent) : install
+               1) cxf-rest : install
+               2) war-module : tomcat plugin : run
+
+Service - http://localhost:9999/war-module/cxf
+          http://localhost:9999/war-module/cxf/documents/{id}
+
+Test error 501 - http://localhost:9999/war-module/cxf/documents/0/chapters

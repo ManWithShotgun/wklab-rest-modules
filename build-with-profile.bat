@@ -1,0 +1,1 @@
+call mvn ru.ilia:wklab-rest-modules:compile -P dev-build, %1
